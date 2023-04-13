@@ -518,40 +518,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container{
-  width: 100%;
-}
-
-@media (min-width: 474px){
-  .container{
-    max-width: 474px;
-  }
-}
-
-@media (min-width: 767px){
-  .container{
-    max-width: 767px;
-  }
-}
-
-@media (min-width: 1023px){
-  .container{
-    max-width: 1023px;
-  }
-}
-
-@media (min-width: 1279px){
-  .container{
-    max-width: 1279px;
-  }
-}
-
-@media (min-width: 1535px){
-  .container{
-    max-width: 1535px;
-  }
-}
-
 .absolute{
   position: absolute;
 }
@@ -580,8 +546,12 @@ video {
   top: 0px;
 }
 
-.top-\[50\%\]{
-  top: 50%;
+.top-\[44\%\]{
+  top: 44%;
+}
+
+.top-\[54\%\]{
+  top: 54%;
 }
 
 .z-0{
@@ -771,6 +741,18 @@ video {
 
 .max-w-xs{
   max-width: 20rem;
+}
+
+.max-w-\[879px\]{
+  max-width: 879px;
+}
+
+.max-w-\[876px\]{
+  max-width: 876px;
+}
+
+.max-w-\[877px\]{
+  max-width: 877px;
 }
 
 .grow{
@@ -1342,6 +1324,14 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
   .md\:pt-\[67px\]{
     padding-top: 67px;
+  }
+
+  .md\:pl-\[70px\]{
+    padding-left: 70px;
+  }
+
+  .md\:pr-\[74px\]{
+    padding-right: 74px;
   }
 
   .md\:text-right{
